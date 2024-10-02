@@ -23,7 +23,10 @@ async function quantidadeUsuariosPorRede() {
         peper_bgcolor: getCSS("--bg-color"),
         title:{
             Text: "Redes sociais com mais usuários no mundo",
-            x: 0
+            x: 0.
+            font:{
+                color: getCSS("--primary-color")
+            }
         }
     }
 
