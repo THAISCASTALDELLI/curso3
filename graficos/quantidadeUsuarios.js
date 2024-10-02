@@ -40,7 +40,7 @@ async function quantidadeUsuariosPorRede() {
         },
         yaxis:{
             title: { 
-                Text:"nome das redes sociais",
+                Text:"bilhões de usuários ativos",
                 font:{ 
                     color: getCSS("--secondary-color")
                 }
