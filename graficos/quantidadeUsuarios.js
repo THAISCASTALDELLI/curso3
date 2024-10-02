@@ -29,6 +29,14 @@ async function quantidadeUsuariosPorRede() {
                 family: getCSS ("--font"),
                 size: 30
             }
+        },
+        xaxis: {
+         title: { 
+            Text:"nome das redes sociais"
+         }
+        },
+        yaxis:{
+
         }
     }
 
