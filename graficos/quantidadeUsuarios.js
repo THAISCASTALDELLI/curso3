@@ -20,7 +20,10 @@ async function quantidadeUsuariosPorRede() {
 
     const layout = {
         plot_bgcolor: getCSS("--bg-color"),
-        peper_bgcolor: getCSS("--bg-color")
+        peper_bgcolor: getCSS("--bg-color"),
+        title:{
+            Text: "Redes sociais com mais usuários no mundo"
+        }
     }
 
     const grafico = document.createElement('div')
