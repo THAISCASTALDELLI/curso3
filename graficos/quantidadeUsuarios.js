@@ -39,7 +39,12 @@ async function quantidadeUsuariosPorRede() {
          }
         },
         yaxis:{
-
+            title: { 
+                Text:"nome das redes sociais",
+                font:{ 
+                    color: getCSS("--secondary-color")
+                }
+             }
         }
     }
 
