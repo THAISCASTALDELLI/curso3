@@ -46,6 +46,9 @@ nav a:hover {
     transform: scale(0.90);
     transition: transform 0.1s;
 }
+.grafico{
+    margin-top: 3rem;
+}
 
 .graficos-container {
     margin: 5rem;
